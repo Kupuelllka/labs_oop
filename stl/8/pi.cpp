@@ -6,7 +6,6 @@
         умножает каждый элемент списка чисел с плавающей  точкой на число PI
 
 */
-
 #include <algorithm>
 #include <iostream>
 #include <iterator>
@@ -17,7 +16,7 @@
 
 namespace setm {
 
-// Function object that multiplies a number by PI.
+// Функциональный объект, который умножает число на PI.
 struct multiply_by_pi {
     double operator()(double x) const {
         return x * std::numbers::pi_v<double>;
@@ -27,7 +26,7 @@ struct multiply_by_pi {
 };  // namespace setm
 
 int main() {
-    // Generate 5 random numbers in [0.0, 5.0].
+    // Генерация 5 случайных чисел в диапазоне [0.0, 5.0].
     static constexpr auto size{ 5 };
     static constexpr auto min_value{ 0.0 };
     static constexpr auto max_value{ 5.0 };
@@ -37,16 +36,16 @@ int main() {
     std::vector<double> numbers(size);
     std::ranges::generate(numbers, [&] { return dist(gen); });
 
-    // Print original numbers.
-    std::cout << "Numbers in original form: ";
+    // Вывод исходных чисел.
+    std::cout << "Числа в исходном виде: ";
     std::ranges::copy(numbers, std::ostream_iterator<double>{ std::cout, " " });
     std::cout << '\n';
 
-    // Multiply each number by PI using the function object.
+    // Умножение каждого числа на PI с использованием функционального объекта.
     std::ranges::transform(numbers, numbers.begin(), setm::multiply_by_pi());
 
-    // Print the result: numbers multiplied by PI.
-    std::cout << "Numbers multiplied by PI: ";
+    // Вывод результата: числа, умноженные на PI.
+    std::cout << "Числа, умноженные на PI: ";
     std::ranges::copy(numbers, std::ostream_iterator<double>{ std::cout, " " });
     std::cout << '\n';
 }
