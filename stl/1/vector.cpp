@@ -1,4 +1,5 @@
-// Baranov Konstantin Pavlovich, group v5130904/20021.
+//   Гапонов Дмитрий 
+//   группа 5130904_30022
 // STL. Lab #1.
 
 #include <algorithm>
