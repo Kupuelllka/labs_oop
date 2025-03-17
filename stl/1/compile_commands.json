@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/dmitry/labs_oop/stl/1",
+  "command": "/usr/bin/c++  -I/home/dmitry/labs_oop/stl/1/_deps/nanobench-src/src/include -I/home/dmitry/labs_oop/stl/1/_deps/cxxopts-src/include -std=gnu++23 -o CMakeFiles/Lab1Vector.dir/vector.cpp.o -c /home/dmitry/labs_oop/stl/1/vector.cpp",
+  "file": "/home/dmitry/labs_oop/stl/1/vector.cpp"
+},
+{
+  "directory": "/home/dmitry/labs_oop/stl/1/_deps/nanobench-build",
+  "command": "/usr/bin/c++  -I/home/dmitry/labs_oop/stl/1/_deps/nanobench-src/src/include -std=gnu++17 -o CMakeFiles/nanobench.dir/src/test/app/nanobench.cpp.o -c /home/dmitry/labs_oop/stl/1/_deps/nanobench-src/src/test/app/nanobench.cpp",
+  "file": "/home/dmitry/labs_oop/stl/1/_deps/nanobench-src/src/test/app/nanobench.cpp"
+}
+]

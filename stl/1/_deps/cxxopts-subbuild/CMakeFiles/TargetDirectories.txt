@@ -1,0 +1,3 @@
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/CMakeFiles/cxxopts-populate.dir
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/CMakeFiles/edit_cache.dir
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/CMakeFiles/rebuild_cache.dir

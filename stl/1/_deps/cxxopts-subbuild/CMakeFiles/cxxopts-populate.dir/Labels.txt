@@ -1,0 +1,14 @@
+# Target labels
+ cxxopts-populate
+# Source files and their labels
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/CMakeFiles/cxxopts-populate
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/CMakeFiles/cxxopts-populate.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/CMakeFiles/cxxopts-populate-complete.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/cxxopts-populate-prefix/src/cxxopts-populate-stamp/cxxopts-populate-build.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/cxxopts-populate-prefix/src/cxxopts-populate-stamp/cxxopts-populate-configure.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/cxxopts-populate-prefix/src/cxxopts-populate-stamp/cxxopts-populate-download.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/cxxopts-populate-prefix/src/cxxopts-populate-stamp/cxxopts-populate-install.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/cxxopts-populate-prefix/src/cxxopts-populate-stamp/cxxopts-populate-mkdir.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/cxxopts-populate-prefix/src/cxxopts-populate-stamp/cxxopts-populate-patch.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/cxxopts-populate-prefix/src/cxxopts-populate-stamp/cxxopts-populate-test.rule
+/home/dmitry/labs_oop/stl/1/_deps/cxxopts-subbuild/cxxopts-populate-prefix/src/cxxopts-populate-stamp/cxxopts-populate-update.rule

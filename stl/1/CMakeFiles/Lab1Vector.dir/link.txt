@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Lab1Vector.dir/vector.cpp.o -o Lab1Vector  _deps/nanobench-build/libnanobench.a 
